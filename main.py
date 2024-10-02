@@ -38,7 +38,7 @@ print(response.text)
 pixel_creation_endpoint = f"{pixela_endpoint}/{USERNAME}/graphs/{GRAPH_ID}"
 
 today = datetime.now()
-# print(today.strftime("%Y%m%d"))
+# print(today.strftime("%Y%m%d")) # testing
 
 pixel_data = {
     "date": today.strftime("%Y%m%d"),
